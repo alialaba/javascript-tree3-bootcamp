@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: hsl(4, 38%, 46%);
+}
+
 .app {
     display: flex;
     height: 100vh;
@@ -31,7 +35,7 @@
     height: 50%;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) rotate(-90deg);
     pointer-events: none;
 }
 
